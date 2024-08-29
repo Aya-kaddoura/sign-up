@@ -5,9 +5,76 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* height: 100vh */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.nav-bar{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: transparent;
+  backdrop-filter: blur(55px);
+  box-shadow: 0 0 10px 3px ;
+}
+.register{
+  background-color: #261633;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.imgBG{
+  background-image: url("./BG.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+
+
+.create-Product{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 50px auto;
+}
+
+.create-Product input{
+  color: #545454 ;
+  border: solid 1px #545454 ;
+  border-radius: 5px ;
+  padding: 10px ;
+  font-size: 15px 
+}
+
+.create-Product label{
+  color:#261633;
+  border:none;
+  width:70%;
+  font-size:1.2em;
+  font-weight: 500;
+  margin: 15px 0 4px;
+
+}
+.create-Product button{
+  width: 100%;
+  margin-top: 40px;
+  padding: 10px;
+  font-size: 15px;
+  box-shadow: none;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  color: #fff ;
+    background-color: #261633 ;
+    padding: 10px ;
+    font-size: 20px 
 }

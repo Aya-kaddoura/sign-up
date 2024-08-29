@@ -1,0 +1,48 @@
+.my-form{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .my-form form{
+    min-width: 250px;
+    border:solid 1px rgb(255, 255, 255,.5);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 30px;
+    background-color: transparent;
+    backdrop-filter: blur(55px);
+    color: #fff;
+  }
+  .my-form form label{
+    margin: 15px 0 4px;
+  }
+  .my-form form input{
+    border: none;
+    border-bottom: solid 1px #fff;
+    background-color: initial;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .my-form form input:focus-visible{
+    outline: 0;
+    border-bottom: solid 1px #fff;
+  }
+  .my-form form button{
+    margin-top: 40px;
+    padding: 10px;
+    font-size: 15px;
+    box-shadow: none;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  .my-form form button:hover{
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  .error{
+    font-size: 13px;
+    color: rgb(250, 108, 108);
+  }
+  
